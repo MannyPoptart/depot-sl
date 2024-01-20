@@ -7,3 +7,27 @@ html, body {
     height: 100%;
 }
 
+.home, body {
+    background-image: linear-gradient(180deg, salmon 25%, #7851A9 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+#homeH {
+    text-align: center;
+    padding: 1rem;
+}
+
+#homeF {
+    padding: 1rem;
+    margin-top: auto;
+}
+
+#homeC {
+    flex-grow: 1;
+    text-align: center;
+    padding: 2rem;
+}
+

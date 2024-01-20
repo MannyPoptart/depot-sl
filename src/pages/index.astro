@@ -1,5 +1,6 @@
 ---
 import '../styles/index.css'
+import Santi from '../media/IMG_5804.JPG'
 
 ---
 
@@ -11,7 +12,26 @@ import '../styles/index.css'
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+
+	<body class='home'>
+
+		<header id='homeH'>
+			<h1>Home</h1>
+		</header>
+
+		<section id='homeC'>
+			<p>
+				Welcome to Astro!
+			</p>
+
+			<img src={Santi} alt="Santi">
+		</section>
+
+		<footer id='homeF'>
+			<p>Actively Trying To Do Better</p>
+		</footer>
+
+
 	</body>
+
 </html>
